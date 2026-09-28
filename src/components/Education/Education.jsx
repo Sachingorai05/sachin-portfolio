@@ -16,9 +16,9 @@ function Education() {
       status: "Currently Pursuing",
       icon: <GraduationCap size={23} />,
       details: [
-        "Computer Science & Engineering",
-        "Lateral Entry",
-      ],
+  "Computer Science & Engineering",
+  "CGPA: 7.01 / 10",
+],
     },
     {
       degree: "Diploma — Computer Science & Engineering",

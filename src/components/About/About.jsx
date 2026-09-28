@@ -110,23 +110,20 @@ function About() {
 
             {/* About Actions */}
             <div className="about-actions">
-              <a
-                href="#contact"
-                className="text-button"
-              >
-                Let's connect
-                <ArrowUpRight size={17} />
-              </a>
+  <a href="#contact" className="about-action-box">
+    <span>Let's Connect</span>
+    <ArrowUpRight size={17} />
+  </a>
 
-              <a
-                href="/Sachin-Gorai-Resume.pdf"
-                download="Sachin-Gorai-Resume.pdf"
-                className="text-button"
-              >
-                Download Resume
-                <ArrowUpRight size={17} />
-              </a>
-            </div>
+  <a
+    href="/Sachin-Gorai-Resume.pdf"
+    download="Sachin-Gorai-Resume.pdf"
+    className="about-action-box"
+  >
+    <span>Download Resume</span>
+    <ArrowUpRight size={17} />
+  </a>
+</div>
           </motion.div>
 
           {/* Focus Cards */}
