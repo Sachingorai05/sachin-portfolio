@@ -1,5 +1,6 @@
 import { ArrowDown, ArrowUpRight, Mail } from "lucide-react";
 import { motion } from "motion/react";
+import sachinImage from "../../assets/sachin.png";
 
 function Hero() {
   const scrollToProjects = () => {
@@ -201,10 +202,10 @@ function Hero() {
             }}
           >
             <img
-              src="/src/assets/sachin.png"
-              alt="Sachin Gorai"
-              className="profile-image"
-            />
+  src={sachinImage}
+  alt="Sachin Gorai"
+  className="profile-image"
+/>
           </motion.div>
         </motion.div>
       </div>
