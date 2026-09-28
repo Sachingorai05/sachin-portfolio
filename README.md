@@ -1,16 +1,116 @@
-# React + Vite
+# Sachin Gorai — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <strong>AI & Full-Stack Developer</strong>
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  A modern, responsive and interactive personal portfolio built with React and Vite.
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<p align="center">
+  <a href="https://github.com/Sachingorai05">GitHub</a> •
+  <a href="https://www.linkedin.com/in/sachin-gorai-05sg">LinkedIn</a>
+</p>
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌐 About
 
-## Expanding the ESLint configuration
+This repository contains my personal portfolio website.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The portfolio showcases my:
+
+- Projects
+- Technical skills
+- Education
+- Experience
+- Certifications
+- GitHub repositories
+- Resume
+- Contact information
+
+The website is designed with a modern dark interface, responsive layouts, smooth animations, and interactive sections.
+
+---
+
+## ✨ Features
+
+- 🎨 Modern dark UI
+- 📱 Fully responsive design
+- ⚡ React + Vite
+- 🎬 Smooth animations
+- 🧑‍💻 Interactive project showcase
+- 📜 Certificate showcase
+- 📄 Resume view & download
+- 🐙 GitHub repository section
+- 📬 Working contact form
+- 📱 Responsive mobile navigation
+- 🔗 Social media integration
+- 🌐 SEO-friendly metadata
+- ⭐ Custom favicon
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+|---|---|
+| React | Frontend |
+| Vite | Build Tool |
+| JavaScript | Programming |
+| CSS | Styling |
+| Motion | Animations |
+| Lucide React | Icons |
+| Formspree | Contact Form |
+| Git | Version Control |
+| GitHub | Repository Hosting |
+
+---
+
+## 🚀 Featured Projects
+
+### 🤖 AI-Powered College Knowledge Assistant
+
+AI-powered college knowledge assistant using Retrieval-Augmented Generation (RAG).
+
+**Technologies:** Python, RAG, LangChain, ChromaDB, React
+
+[View Repository](https://github.com/Sachingorai05/AI-College-Knowledge-Assistant-RAG)
+
+---
+
+### 💬 AI Customer Service Chatbot
+
+Python-based customer service chatbot designed to handle common customer queries.
+
+**Technologies:** Python, JSON, Chatbot
+
+[View Repository](https://github.com/Sachingorai05/CUSTOMER-SERVICE-CHATBOT)
+
+---
+
+## 📂 Project Structure
+
+```text
+sachin-portfolio/
+│
+├── public/
+│   ├── certificates/
+│   ├── favicon.svg
+│   └── Sachin-Gorai-Resume.pdf
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
