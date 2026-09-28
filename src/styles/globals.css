@@ -1,0 +1,71 @@
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  border: 0;
+  background: none;
+  color: inherit;
+}
+
+::selection {
+  background: var(--accent);
+  color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #292d3a;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* Shared layout */
+
+main {
+  width: 100%;
+}
+
+.hero-section,
+.placeholder-section {
+  position: relative;
+  width: 100%;
+}
+
+.hero-container,
+.placeholder-section {
+  max-width: var(--container-width);
+  margin: 0 auto;
+}
+
+/* Temporary sections */
+
+.placeholder-section {
+  min-height: 70vh;
+  padding: var(--section-padding) 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid var(--border);
+}
+
+.placeholder-section h2 {
+  font-size: clamp(2rem, 5vw, 4rem);
+  margin: 0;
+}
